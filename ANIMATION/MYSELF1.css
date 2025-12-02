@@ -1,0 +1,67 @@
+.container{
+padding: 20PX;
+position: relative;
+
+}
+
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: violet;
+    animation-name: laura;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+    animation-delay: 3s;
+    animation-direction: alternate;
+    position: absolute;
+    animation-timing-function: linear;
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+@keyframes laura{
+    /* from{
+        background-color:blue;
+        top: 10px;
+        left: 20px;
+      
+       
+    }
+    to{
+        background-color: yellow;
+        top: 10px;
+        left: 960px;
+       
+       
+    } */
+     0%{
+        background-color: orange;
+        top: 10px;
+        left: 10px;
+     }
+     25%{
+        background-color: orange;
+        top: 10px;
+        left: 950px;
+     }
+     50%{
+        background-color: white;
+        top: 480px;
+        left: 950px;
+     }
+     /* 75%{
+        background-color: green;
+        top: 480px;
+        left: 10px;
+     } */
+     100%{
+        background-color: orange;
+        top: 10px;
+        left: 10px;
+     }
+
+}

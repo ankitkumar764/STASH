@@ -1,0 +1,41 @@
+.container{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+    ;
+}
+
+.box{
+    height: 50px;
+    width: 550px;
+    border: 1px solid;
+    background: linear-gradient(to right,orange,white,green,blue,black,red,yellow,purple,gray);
+
+}
+
+.container2{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    /* background: radial-gradient(circle,orange,white,green,blue,black,red,yellow); */
+    background: radial-gradient(ellipse,
+  orange 0%,
+  white 15%,
+  green 30%,
+  blue 45%,
+  black 60%,
+  red 80%,
+  yellow 100%
+);
+
+}
+
+.container3{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background: conic
+
+}
